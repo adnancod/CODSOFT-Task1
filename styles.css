@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(bck-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    color: white;
+}
+nav{
+    background-color: rgb(58, 46, 63);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    border: 2px solid black;
+    border-style: none;
+    border-radius: 50px;
+}
+.header{
+    margin-left: 2rem;
+    display: flex;
+}
+.header h1{
+    padding-left: 1rem;
+    padding-top: 5px;
+}
+.header img{
+    width: 35px;
+    height: 35px;
+    mix-blend-mode: multiply;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    margin-right: 40px;
+    padding: 10px;
+}
+nav ul li{
+    padding-left: 1rem;
+    padding-right: 25px;
+    
+}
+nav ul li:hover{
+    cursor: pointer;
+    color: blue;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 470px;
+    margin: 3rem;
+    padding: 1rem;
+}
+main h2,p,.images{
+    margin: 1rem;
+}
+main h2{
+    font: 2em monospace;
+}
+main p{
+    font: 1em sans-serif;
+    font-weight: 200;
+    width: 800px;
+    word-spacing: 2px;
+}
+.images{
+    display: flex;
+}
+#imgs{
+    margin: 1rem;
+}
+footer{
+    background-color: rgb(58, 46, 63);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 50px;
+}
